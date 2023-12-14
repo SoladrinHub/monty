@@ -1,10 +1,9 @@
 #include "monty.h"
 /**
- *pall - this will print-all elements
- *@stack: LAST IN FIRST OUT
- *@last_line: command line
- *
- */
+ * pall - this will print all the elements in the stack
+ * @stack: LAST IN FIRST OUT
+ * @last_line: command line
+*/
 void pall(stack_t **stack,  __attribute__((unused))unsigned int last_line)
 {
 	stack_t *stack_print;
