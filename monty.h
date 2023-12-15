@@ -54,5 +54,7 @@ global_t global;
 /*void push(stack_t **stack, unsigned int line_number);*/
 void pall(stack_t **stack, unsigned int line_number);
 void pint(stack_t **stack, unsigned int line_number);
+void get_op_function(stack_t **top, unsigned int line_number);
+void pop(stack_t **stack, unsigned int line_number);
 
 #endif
